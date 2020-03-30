@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据绑定v-model</title>
+    <script src="js/vuejs-2.5.16.js"></script>
+
+</head>
+<body>
+
+    <div id="app">
+        <!--插值表达式   接收data中定义的数据-->
+        {{message}}
+        <input type="text" v-model="user.username">
+        <input type="text" v-model="user.age">
+
+    </div>
+    <script>
+        //创建vue对象
+        new Vue({
+            el:"#app",  //将id为app的元素的区域交由Vue进行管理（渲染）
+            data:{
+                message:"<h1>Hello Vue.js</h1>",
+                user:{
+                    username:"路飞",
+                    age:20
+                }
+            }
+
+        });
+    </script>
+</body>
+</html>

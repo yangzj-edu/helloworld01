@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件修饰</title>
+    <script src="js/vuejs-2.5.16.js"></script>
+
+</head>
+<body>
+
+    <div id="app">
+        <!--插值表达式   接收data中定义的数据-->
+        {{message}}
+
+        <form action="https://www.baidu.com" method="post" @submit.prevent>
+            <input type="submit" value="提交">
+        </form>
+
+        <input type="text" @keydown.enter="funEnter">
+
+
+    </div>
+    <script>
+        //创建vue对象
+        new Vue({
+            el:"#app",  //将id为app的元素的区域交由Vue进行管理（渲染）
+            data:{
+                message:"Hello Vue.js"
+            },
+            methods:{
+                funEnter:function(){
+                    alert("摁下的是回车键")
+                }
+            }
+        });
+
+
+        /*function aa() {
+            return false;
+        }*/
+
+    </script>
+</body>
+</html>

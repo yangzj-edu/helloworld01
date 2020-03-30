@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+    <script src="js/vuejs-2.5.16.js"></script>
+    <script src="js/axios-0.18.0.js"></script>
+
+</head>
+<body>
+
+    <div id="app">
+        <!--插值表达式   接收data中定义的数据-->
+        {{message}}
+
+    </div>
+    <script>
+        //创建vue对象
+        new Vue({
+            el:"#app",  //将id为app的元素的区域交由Vue进行管理（渲染）
+            data:{
+                message:"<h1>Hello Vue.js</h1>",
+                userList: [
+                    {id: 1, username: "admin", password: "123456"},
+                    {id: 2, username: "lufei", password: "lufei"}
+                ]
+            },
+            methods:{
+                findAll:function () {
+                    //利用ajax异步向后台发送请求
+                    axios.get("url地址")
+                    .then(function(response){
+                        alert(response.data)
+                    })
+                    .catch(function(error){
+                        alert(error)
+                    })
+                }
+            },
+            created:function(){
+                this.findAll();
+            }
+
+        });
+    </script>
+</body>
+</html>
