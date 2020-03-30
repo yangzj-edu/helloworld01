@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="commons-io-2.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/20200323_LuceneDemo01/lib/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/20200323_LuceneDemo01/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/20200323_LuceneDemo01/lib/lucene-analyzers-common-7.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/20200323_LuceneDemo01/lib/lucene-core-7.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

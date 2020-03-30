@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d41db29-c29e-47a4-9245-486176a70fc1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1ZWMtSryZR3GiBNH42X1vBBwqZh" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/20200323_LuceneDemo01/lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SJT1909\WorkSpace\2020LuceneDemo\20200323_LuceneDemo01\lib" />
+      <recent name="D:\SJT1909\WorkSpace\2020LuceneDemo\20200323_LuceneDemo01\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DocumentTest.updateDocument">
+    <configuration name="DocumentTest.addDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="20200323_LuceneDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sram.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sram.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sram.test.DocumentTest" />
+      <option name="METHOD_NAME" value="addDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentTest.deleteDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="20200323_LuceneDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sram.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sram.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sram.test.DocumentTest" />
+      <option name="METHOD_NAME" value="deleteDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DocumentTest.updateDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="20200323_LuceneDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sram.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sram.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sram.test.DocumentTest" />
+      <option name="METHOD_NAME" value="updateDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LuceneTest.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="20200323_LuceneDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sram.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sram.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sram.test.LuceneTest" />
+      <option name="METHOD_NAME" value="createIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LuceneTest.searchIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="20200323_LuceneDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sram.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sram.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sram.test.LuceneTest" />
+      <option name="METHOD_NAME" value="searchIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DocumentTest.updateDocument" />
+        <item itemvalue="JUnit.LuceneTest.searchIndex" />
+        <item itemvalue="JUnit.LuceneTest.createIndex" />
+        <item itemvalue="JUnit.DocumentTest.deleteDocument" />
+        <item itemvalue="JUnit.DocumentTest.addDocument" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d41db29-c29e-47a4-9245-486176a70fc1" name="Default Changelist" comment="" />
+      <created>1584950615684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584950615684</updated>
+      <workItem from="1584950626735" duration="39000" />
+      <workItem from="1584950678635" duration="3513000" />
+      <workItem from="1585011680367" duration="15636000" />
+      <workItem from="1585199720249" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="90" key="#Project_Structure" timestamp="1584950651655">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="90" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1584950651655" />
+    <state width="1396" height="159" key="GridCell.Tab.0.bottom" timestamp="1585039131642">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="159" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585039131642" />
+    <state width="1396" height="159" key="GridCell.Tab.0.center" timestamp="1585039131641">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="159" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1585039131641" />
+    <state width="1396" height="159" key="GridCell.Tab.0.left" timestamp="1585039131641">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="159" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1585039131641" />
+    <state width="1396" height="159" key="GridCell.Tab.0.right" timestamp="1585039131641">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1396" height="159" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1585039131641" />
+    <state x="90" y="45" key="new project wizard" timestamp="1584950728617">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="90" y="45" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1584950728617" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1585035719485">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1585035719485" />
+  </component>
+</project>
